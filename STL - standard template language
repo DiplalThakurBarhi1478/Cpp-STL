@@ -12,9 +12,9 @@ Parts:
 ---------------
 
 vector<int> vec;
-vector<int> vec = {1,2};
-vector<int> vec(3,20);
-vector<int> vec2(vec1);
+vector<int> vec = {1,2};     // initializing vector
+vector<int> vec(3,20);       // repeating same element upto certain size
+vector<int> vec2(vec1);      // new vector using already build vector
 
 Note: What is the difference between array and vector? 
 There is everything almost same only the difference is size, vector size is dyanamic/flexible and array is fixed(no change can be done).
@@ -30,6 +30,13 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 6. at() or [] --> to get any position elements like 0 1 2 3 4 .........
 7. front() --> get the first element
 8. back()  --> get the last element
+
+// new page
+9. erase() --> we pass to iterators to erase elements of the vector by change it size but not the capacity
+
+10. insert()
+11. clear()
+12. empty()
 
 
 

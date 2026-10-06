@@ -19,6 +19,15 @@ int main(){
     for(int v1 : vec1){
         cout << v1 << " ";
     }
+    
+    cout << endl;
+    cout << "initializing new vector using already build vector" << endl;
+    vector<int> vec2(vec1);
+
+    for(int v2 : vec2){
+        cout << v2 << " ";
+    }
+
 
     return 0;
 }
