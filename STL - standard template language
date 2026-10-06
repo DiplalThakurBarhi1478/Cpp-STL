@@ -1,0 +1,35 @@
+STL --> means standard template language
+
+Parts:
+1. Containers
+2. Iterators
+3. Algorithms
+4. Functors
+
+
+#Vector
+---------------
+---------------
+
+vector<int> vec;
+vector<int> vec = {1,2};
+vector<int> vec(3,20);
+vector<int> vec2(vec1);
+
+Note: What is the difference between array and vector? 
+There is everything almost same only the difference is size, vector size is dyanamic/flexible and array is fixed(no change can be done).
+
+1. size() --> no. of elements store
+2. capacity() --> no. of elements it can store
+3. push_back() --> append new element inside the vector
+4. pop_back() --> delete last element of the vector
+5. emplace_back() --> append new elemnts inside the vector
+
+Both push_back() and emplace_back() acts like same but they are little bit different, push_back() thinks it will get the same datatype elements but emblace_back() creats emblace object.
+
+6. at() or [] --> to get any position elements like 0 1 2 3 4 .........
+7. front() --> get the first element
+8. back()  --> get the last element
+
+
+
