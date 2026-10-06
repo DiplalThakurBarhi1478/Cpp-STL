@@ -34,9 +34,19 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 // new page
 9. erase() --> we pass to iterators to erase elements of the vector by change it size but not the capacity
 
-10. insert()
-11. clear()
-12. empty()
+10. insert() --> inserting new elemetn in the vector
+
+11. clear() --> totally clearing all the elements of the vector
+
+12. empty() --> checking if the vector is empty
+
+
+#Vector Iterators
+
+ 1. vec.begin()  --> acts like a pointer to point the address and if we deference it we get value of it.
+ 2. vec.end()   
+ 3. vec.rbegin()
+ 4. vec.rend()
 
 
 
