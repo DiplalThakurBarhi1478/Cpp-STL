@@ -146,5 +146,23 @@ queue<int> q;
 
 
 
+#Priority Queue
+------------------
+------------------
+
+Definition : largest value at the top in descending order from top to bottom
+
+priority_queue<int> q;
+priority_queue<int, vector<int>, greater<int>> q;
+
+-> push
+-> emplace
+-> top
+-> pop
+-> size
+-> empty
+
+
+
 
 
