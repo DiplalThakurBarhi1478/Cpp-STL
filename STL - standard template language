@@ -57,8 +57,8 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 -> push_front()
 -> pop_back()
 -> pop_front()
--> emblace_back()
--> emblace_front()
+-> emplace_back()
+-> emplace_front()
 -> erase()
 -> insert()
 -> clear()
@@ -79,8 +79,8 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 -> push_front()
 -> pop_back()
 -> pop_front()
--> emblace_back()
--> emblace_front()
+-> emplace_back()
+-> emplace_front()
 -> erase()
 -> insert()
 -> clear()
@@ -91,3 +91,5 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 -> rend()
 
 
+// Difference betwen list and deque is they perform similar way operation but we cannot perform fetch random value from the list
+// while we can from the deque 
