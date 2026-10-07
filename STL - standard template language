@@ -7,6 +7,7 @@ Parts:
 4. Functors
 
 
+//////////////////////////////SEQUENTIAL CONTAINERS
 #Vector
 ---------------
 ---------------
@@ -108,6 +109,42 @@ if we pass pair inside pair then
 --> fetching the element of the pair inside the pair
 -> p.second.first;
 -> p.second.second;
+
+
+/////////////////////////////NON-SEQUENTIAL CONTAINER
+
+#stack
+-------------
+-------------
+
+Defintion: last in first out >>  data structure
+-> push
+-> emplace
+-> top
+-> pop
+-> size
+-> emptya
+-> swap
+
+
+
+
+# QUEUE
+--------------
+--------------
+Definition: First In and First Out (FIFO)
+
+queue<int> q;
+
+-> push
+-> emplace
+-> front
+-> pop
+-> size
+-> empty
+-> swap
+
+
 
 
 
