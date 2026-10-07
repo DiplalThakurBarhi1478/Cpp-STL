@@ -93,3 +93,21 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
 
 // Difference betwen list and deque is they perform similar way operation but we cannot perform fetch random value from the list
 // while we can from the deque 
+
+
+
+#pair
+
+pair<int, int> p; // initialization
+
+--> fetching the element of the pair like
+-> p.first;
+-> p.second;
+
+if we pass pair inside pair then
+--> fetching the element of the pair inside the pair
+-> p.second.first;
+-> p.second.second;
+
+
+
