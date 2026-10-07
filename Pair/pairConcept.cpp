@@ -29,7 +29,9 @@ int main(){
 
 
     cout << endl;
+
     vector<pair<int, int>> vec = {{1, 2}, {3, 4}, {5, 6}}; // vector of pairs
+   
     for(pair<int, int> p : vec){
         cout << p.first << " " << p.second << endl;
     }
@@ -38,6 +40,13 @@ int main(){
     for(auto p : vec){
         cout << p.first << " " << p.second << endl;
     }
+
+    cout << endl;
+
+    for(int i {0}; i < vec.size(); ++i){
+        cout << vec[i].first << " " << vec[i].second << endl;  // using position for individual pair and then printing the respective values
+    }
+
     return 0;
 
 }
