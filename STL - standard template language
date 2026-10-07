@@ -163,6 +163,27 @@ priority_queue<int, vector<int>, greater<int>> q;
 -> empty
 
 
+## Map
+----------------
+----------------
+
+map<string, int> m;
+
+m[key] = value;
+
+
+-> insert()
+-> emplace()
+-> count()
+-> erase()
+-> find()
+-> size()
+-> empty()
+-> erase()
+
+when printing the key and value it prints the key in the sorted order.
+
+
 
 
 
