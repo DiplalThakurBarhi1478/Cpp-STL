@@ -49,4 +49,45 @@ Both push_back() and emplace_back() acts like same but they are little bit diffe
  4. vec.rend()
 
 
+#list
+----------------
+----------------
+
+-> push_back()
+-> push_front()
+-> pop_back()
+-> pop_front()
+-> emblace_back()
+-> emblace_front()
+-> erase()
+-> insert()
+-> clear()
+-> empty()
+-> begin()
+-> end()
+-> rbegin()
+-> rend()
+-> it does not allow to fetch data randomly
+
+
+# deque
+--------------
+--------------
+
+-> push_back()
+-> push_back()
+-> push_front()
+-> pop_back()
+-> pop_front()
+-> emblace_back()
+-> emblace_front()
+-> erase()
+-> insert()
+-> clear()
+-> empty()
+-> begin()
+-> end()
+-> rbegin()
+-> rend()
+
 
