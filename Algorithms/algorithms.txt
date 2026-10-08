@@ -40,7 +40,7 @@ f. Binary Search
     binary_search(v.begin(), v.end(), target)  // passing iterators.
 
 
-g. Count Set Bits           --> very useful for the competitive programming
+g. Count Set Bits           --> very useful for the competitive programming that will help me solve a lot problems.
     __builtin_popcount()
     __builtin_popcoutl()    --> l stands for long
     __builtin_popcountll()  --> ll stands for long long
