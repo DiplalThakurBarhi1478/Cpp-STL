@@ -1,0 +1,52 @@
+Previously,
+container > iterator > functor
+
+
+Currently,
+1. Sorting
+------------------
+------------------
+sort(arr, arr + n)                  // pass start and end (just after the last value); // by default ascending
+sort(arr, arr + n, greater<int>())  // sorting in descending order
+sort(v.begin(), v.end())            // sorting vector in asceinding order
+
+
+
+2. Custom Comparators               // it is useful if we want to do custom sorting in the pair using the second element.
+------------------
+------------------
+
+
+
+
+
+3. Other Algorithms
+------------------
+------------------
+a. Reverse
+    reverse(v.begin(), v.end())
+
+b. Next Permutation
+    next_permutation(v.begin(), v.end())
+
+c. swap, min, max
+
+d. max_element(v.bwgin(), v.end())
+
+e. min_element(v.begin(), v.end())
+
+
+f. Binary Search 
+    binary_search(v.begin(), v.end(), target)  // passing iterators.
+
+
+g. Count Set Bits           --> very useful for the competitive programming
+    __builtin_popcount()
+    __builtin_popcoutl()    --> l stands for long
+    __builtin_popcountll()  --> ll stands for long long
+
+
+
+
+
+
