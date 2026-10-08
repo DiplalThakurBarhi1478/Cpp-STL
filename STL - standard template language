@@ -169,6 +169,8 @@ priority_queue<int, vector<int>, greater<int>> q;
 
 map<string, int> m;
 
+It does not allow multiple similar keys it automatically removes all to keep a single of them.
+
 m[key] = value;
 
 
@@ -184,6 +186,25 @@ m[key] = value;
 when printing the key and value it prints the key in the sorted order.
 
 
+## Other Maps
+------------------
+------------------
+
+1. Multi Map
+multimap <string, int> m;
+
+-> we can store multiple keys with repeating keys. // it allows the multiple similar keys and value
+-> different from map , it is because we cannot use square bracket []
+
+2.Unordered Map
+unordered_map <string, int> m;
+
+-> give rando output does not give the ordered data
 
 
 
+## set
+-------------
+-------------
+
+->
