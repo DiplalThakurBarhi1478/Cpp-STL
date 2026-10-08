@@ -26,14 +26,20 @@ sort(v.begin(), v.end())            // sorting vector in asceinding order
 a. Reverse
     reverse(v.begin(), v.end())
 
+
 b. Next Permutation
     next_permutation(v.begin(), v.end())
 
+
 c. swap, min, max
+
 
 d. max_element(v.bwgin(), v.end())
 
+
 e. min_element(v.begin(), v.end())
+
+
 
 
 f. Binary Search 
