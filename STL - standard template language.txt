@@ -205,6 +205,40 @@ unordered_map <string, int> m;
 
 ## set
 -------------
+Stores unique value in a particular sorted order
 -------------
 
-->
+set<int> s;
+
+-> insert, emplace
+-> count
+-> erase
+-> find
+-> size
+-> empty
+-> erase
+
+
+lower_bound() --> it does not allow to print the low value than the required value.
+upper_bound() --> greater than key 
+
+
+
+#other set
+-------------------
+-------------------
+
+
+1. multi set
+// allow repeating values, and print sorted data so lower_bound and upper_bound concept work int this concept
+
+mutliset<int> m;
+
+
+
+2. unordered set
+// allow to print the random data without repeating the data
+
+unorder_set<int> u;
+
+
